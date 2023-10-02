@@ -3,7 +3,7 @@
 
 <h1>Gallery</h1>
 {% for img in photos%}
-<div class="img">
+<div>
     <img src="{{ img.image.url }}" alt="{{ img.description }}" class="card-img img-responsive">
 </div>
 {% endfor %}
